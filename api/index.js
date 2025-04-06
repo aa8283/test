@@ -1,3 +1,5 @@
+const ffmpegPath = require('@ffmpeg-installer/ffmpeg').path;
+process.env.FFMPEG_PATH = ffmpegPath;
 const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 const ytdl = require('ytdl-core');
 const ytsr = require('ytsr'); // Thêm tìm kiếm YouTube
